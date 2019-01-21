@@ -5,7 +5,6 @@
 #include "inc/RaspberryPiPorts.h"
 #include <iostream>
 
-
 int main( int argc, char** argv ) {
     try {
         appbase::app().register_plugin<RaspberryPiPorts>();
